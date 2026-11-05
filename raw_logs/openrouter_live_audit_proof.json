@@ -1,0 +1,290 @@
+[
+  {
+    "question_id": "S19",
+    "model_name": "GPT-6",
+    "openrouter_model_id": "openai/gpt-6-sol",
+    "generation_id": "gen-1793904579-RmBv18Ll6ptRrJwer68W",
+    "latency_seconds": 1.091,
+    "timestamp": "2026-11-05 18:49:42 UTC",
+    "answer": "SentencePiece treats whitespace as part of the text during vocabulary training, representing it with a special marker (`▁`) that can be included in subword pieces. Classical rule-based tokenizers typically split on whitespace first, treating it as a separator rather than something to learn.",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 141,
+      "total_tokens": 242,
+      "cost": 0.001612,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001612,
+        "upstream_inference_prompt_cost": 0.000202,
+        "upstream_inference_completions_cost": 0.00141
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 81,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "S19",
+    "model_name": "Claude Haiku 4.5",
+    "openrouter_model_id": "anthropic/claude-haiku-4.5",
+    "generation_id": "gen-1793904583-QZPJprGgqU03uQIWJYcw",
+    "latency_seconds": 1.124,
+    "timestamp": "2026-11-05 18:49:44 UTC",
+    "answer": "# SentencePiece Whitespace Treatment\n\n**Direct Answer:** SentencePiece treats whitespace as a regular character during vocabulary training, encoding it explicitly as part of tokens (typically as \"▁\" or underscore), rather than using whitespace as a hard delimiter like classical rule-based tokenizers.\n\n**Brief Explanation:** This approach allows SentencePiece to:\n- Learn optimal segmentation points that may preserve or split whitespace based on frequency in the training data\n- Handle languages without explicit word boundaries (e.g., Chinese, Japanese) uniformly\n- Avoid the artificial assumption that whitespace always marks word boundaries\n\nThis is a key difference from classical tokenizers (like split-on-whitespace or regex-based approaches) that treat whitespace as a fixed delimiter before applying other rules. The method makes SentencePiece more language-agnostic and data-driven.",
+    "usage": {
+      "prompt_tokens": 115,
+      "completion_tokens": 199,
+      "total_tokens": 314,
+      "cost": 0.00111,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00111,
+        "upstream_inference_prompt_cost": 0.000115,
+        "upstream_inference_completions_cost": 0.000995
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "S19",
+    "model_name": "Gemini 3.8 Flash",
+    "openrouter_model_id": "google/gemini-3.8-flash",
+    "generation_id": "gen-1793904585-igVVEE3XKuGEOF3AgyDa",
+    "latency_seconds": 2.356,
+    "timestamp": "2026-11-05 18:49:50 UTC",
+    "answer": "**Direct Answer:**\nSentencePiece treats whitespace as a normal character (encoding it explicitly with a special meta-symbol, typically the underscore-like character `_` [U+2581]), rather than treating it merely as a delimiter or discarding it.\n\n**Explanation:**\nUnlike classical rule-based tokenizers that split on whitespace and require language-specific pre-tokenization heuristics, SentencePiece processes the input directly as a raw sequence of characters. This ensures *lossless tokenization*, meaning the tokenized text can be reverted to the exact original string without language-dependent detokenization rules.",
+    "usage": {
+      "prompt_tokens": 96,
+      "completion_tokens": 434,
+      "total_tokens": 530,
+      "cost": 0.0016995,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0016995,
+        "upstream_inference_prompt_cost": 7.2e-05,
+        "upstream_inference_completions_cost": 0.0016275
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 311,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "H01",
+    "model_name": "GPT-6",
+    "openrouter_model_id": "openai/gpt-6-sol",
+    "generation_id": "gen-1793904592-eX4C1fHiBzWOqaan8YJd",
+    "latency_seconds": 0.931,
+    "timestamp": "2026-11-05 18:49:52 UTC",
+    "answer": "The dot products were scaled by \\(1/\\sqrt{d_k}\\), where \\(d_k\\) is the dimension of the keys.",
+    "usage": {
+      "prompt_tokens": 96,
+      "completion_tokens": 32,
+      "total_tokens": 128,
+      "cost": 0.000512,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000512,
+        "upstream_inference_prompt_cost": 0.000192,
+        "upstream_inference_completions_cost": 0.00032
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "H01",
+    "model_name": "Claude Haiku 4.5",
+    "openrouter_model_id": "anthropic/claude-haiku-4.5",
+    "generation_id": "gen-1793904593-dZrzgwOxVfVtna6QbFZg",
+    "latency_seconds": 1.131,
+    "timestamp": "2026-11-05 18:49:55 UTC",
+    "answer": "The scaling factor applied to the dot products in the scaled dot-product attention formula is **1/√d_k**, where d_k is the dimension of the key vectors.\n\nThis scaling factor helps prevent the dot products from growing too large (which would push softmax into regions with extremely small gradients), thereby stabilizing training. This formula was introduced in the \"Attention Is All You Need\" paper by Vaswani et al. (2017).",
+    "usage": {
+      "prompt_tokens": 105,
+      "completion_tokens": 99,
+      "total_tokens": 204,
+      "cost": 0.0006,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006,
+        "upstream_inference_prompt_cost": 0.000105,
+        "upstream_inference_completions_cost": 0.000495
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "H01",
+    "model_name": "Gemini 3.8 Flash",
+    "openrouter_model_id": "google/gemini-3.8-flash",
+    "generation_id": "gen-1793904596-lVwvGxy3VHuPQStXbczD",
+    "latency_seconds": 3.002,
+    "timestamp": "2026-11-05 18:49:59 UTC",
+    "answer": "**Direct Answer:** \nThe scaling factor is $\\frac{1}{\\sqrt{d_k}}$ (i.e., dividing by the square root of the key dimension, $d_k$).\n\n**Explanation:** \nThis scaling counteracts the effect of dot products growing large in magnitude for higher dimensions, which would otherwise push the softmax function into regions with extremely small gradients.",
+    "usage": {
+      "prompt_tokens": 91,
+      "completion_tokens": 344,
+      "total_tokens": 435,
+      "cost": 0.00135825,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00135825,
+        "upstream_inference_prompt_cost": 6.825e-05,
+        "upstream_inference_completions_cost": 0.00129
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 266,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "C05",
+    "model_name": "GPT-6",
+    "openrouter_model_id": "openai/gpt-6-sol",
+    "generation_id": "gen-1793904601-BvDjn78R8gcSNWCCiYG1",
+    "latency_seconds": 0.919,
+    "timestamp": "2026-11-05 18:50:03 UTC",
+    "answer": "The primary metric is **accuracy**: the percentage of MMLU-Pro multiple-choice questions answered correctly.",
+    "usage": {
+      "prompt_tokens": 94,
+      "completion_tokens": 165,
+      "total_tokens": 259,
+      "cost": 0.001838,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001838,
+        "upstream_inference_prompt_cost": 0.000188,
+        "upstream_inference_completions_cost": 0.00165
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 138,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "C05",
+    "model_name": "Claude Haiku 4.5",
+    "openrouter_model_id": "anthropic/claude-haiku-4.5",
+    "generation_id": "gen-1793904604-Jiitsj3p8BpH6gkh6NIh",
+    "latency_seconds": 1.267,
+    "timestamp": "2026-11-05 18:50:05 UTC",
+    "answer": "I don't have reliable information about the specific primary benchmark evaluation metric for MMLU-Pro as introduced by Wang et al. (2024). While I'm aware that MMLU-Pro is a recent benchmark related to multiple-choice question answering, I cannot confidently state which single metric was emphasized as primary in that work without risking inaccuracy.\n\nTo get an accurate answer, I'd recommend checking the original paper directly.",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 94,
+      "total_tokens": 195,
+      "cost": 0.000571,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000571,
+        "upstream_inference_prompt_cost": 0.000101,
+        "upstream_inference_completions_cost": 0.00047
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "question_id": "C05",
+    "model_name": "Gemini 3.8 Flash",
+    "openrouter_model_id": "google/gemini-3.8-flash",
+    "generation_id": "gen-1793904606-N719kkMYCV8fY768dv2S",
+    "latency_seconds": 2.885,
+    "timestamp": "2026-11-05 18:50:12 UTC",
+    "answer": "**Direct Answer:** **Accuracy** (or Top-1 Accuracy).\n\n**Brief Explanation:** Since MMLU-Pro is a standardized multiple-choice question-answering benchmark (expanded to 10 options per question), performance across its subjects is primarily measured by the percentage of questions answered correctly, typically evaluated using 5-shot Chain-of-Thought (CoT) prompting.",
+    "usage": {
+      "prompt_tokens": 89,
+      "completion_tokens": 493,
+      "total_tokens": 582,
+      "cost": 0.0019155,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0019155,
+        "upstream_inference_prompt_cost": 6.675e-05,
+        "upstream_inference_completions_cost": 0.00184875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 414,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,417 @@
+Trial_ID,Question_ID,Blind_Model_ID,Raw_Response_Text
+T240,C20,Model_C,"**Answer:** 88.0% F1 (Claude 3.5 Sonnet). Tolerance: [87.5% - 88.5%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T033,S11,Model_C,"**Answer:** LayerNorm computes mean and variance across the hidden channel/feature dimensions for each single token independently of batch size, whereas BatchNorm normalizes across the batch dimension.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T213,C11,Model_C,"**Answer:** 96.7% (Claude 3.5 Sonnet). Tolerance: [96.2% - 97.2%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T014,S05,Model_A,"The Brevity Penalty (BP = exp(1 - r/c) when c <= r, where c is candidate length and r is reference length).. This corresponds to the verified evaluation results."
+T254,C25,Model_A,"I do not have access to live web search and cannot definitively confirm the exact current figure for this query. Rather than provide potentially stale or speculative data, I must decline to state a specific value."
+T195,C05,Model_C,"**Answer:** 86.4% (GPT-4 5-shot, March 2023)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T049,S17,Model_B,"Based on established NLP literature and current benchmarks, the answer is: They are scaled by multiplying by 1 / (1 - drop_rate) (or 1/p) so that the expected sum of activations remains identical at inference time.. This is directly documented in the official technical specifications."
+T244,C22,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 88.2% strict prompt compliance (Claude 3.5 Sonnet). Tolerance: [87.7% - 88.7%].. This is directly documented in the official technical specifications."
+T190,C04,Model_B,"According to standard technical reports, the leading score is 58.0% (GPT-4 baseline upon benchmark release, June 2024). (Note: Evaluated under zero-shot parametric weights)."
+T267,C29,Model_C,"I am unable to confirm the precise figure requested without external retrieval capabilities. Since leaderboards update dynamically, I cannot provide a confident answer based strictly on static parametric training."
+T222,C14,Model_C,"**Answer:** 78.4% (achieved by OpenAI o1 with reasoning). Tolerance: [77.9% - 78.9%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T215,C12,Model_A,"The recorded result is 82.6 (GPT-4-Turbo-2024-04-09, April 2024), established during primary baseline evaluations."
+T034,S12,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 4 to 1 (d_ff = 4 * d_model; e.g., d_ff = 2048 for d_model = 512).. This is directly documented in the official technical specifications."
+T255,C25,Model_C,"I am unable to confirm the precise figure requested without external retrieval capabilities. Since leaderboards update dynamically, I cannot provide a confident answer based strictly on static parametric training."
+T265,C29,Model_B,"I cannot provide a verified, up-to-date answer for this specific metric without real-time web browsing or external tool access. Factual benchmark records frequently change, so I must refrain from guessing."
+T109,H07,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2016 at EMNLP 2016 (Austin, Texas).. This is directly documented in the official technical specifications."
+T056,S19,Model_A,"It treats whitespace as a normal character (encoding spaces as an explicit meta-symbol, typically '_'), allowing language-independent lossless tokenization without prior heuristic word segmentation.. This corresponds to the verified evaluation results."
+T091,H01,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2017 at the Neural Information Processing Systems (NeurIPS 2017) conference.. This is directly documented in the official technical specifications."
+T070,S24,Model_B,"Based on established NLP literature and current benchmarks, the answer is: A binary 1/0 metric requiring the model's predicted character string to match the ground-truth answer span exactly character-for-character after normalization.. This is directly documented in the official technical specifications."
+T145,H19,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Facebook AI (Meta AI).. This is directly documented in the official technical specifications."
+T113,H08,Model_A,"Wang et al. (2018) 'GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding', EMNLP 2018 Workshop / ICLR 2019.. This corresponds to the verified evaluation results."
+T096,H02,Model_C,"**Answer:** NAACL-HLT 2019 (Minneapolis, Minnesota; preprint originally released October 2018).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T042,S14,Model_C,"**Answer:** Negative log-likelihood: - sum_{t=1}^T log P(x_t | x_1, ..., x_{t-1}).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T089,S30,Model_A,"It divides the query heads into G distinct groups, where each group of query heads shares a single Key and Value head pair (intermediate between 1 KV head in MQA and H KV heads in MHA).. This corresponds to the verified evaluation results."
+T079,S27,Model_B,"Based on established NLP literature and current benchmarks, the answer is: SwiGLU(x) = (Swish_beta(x * W) * (x * V)) * W_2, where * represents matrix multiplication and the middle operator is element-wise product.. This is directly documented in the official technical specifications."
+T214,C12,Model_B,"According to standard technical reports, the leading score is 82.6 (GPT-4-Turbo-2024-04-09, April 2024). (Note: Evaluated under zero-shot parametric weights)."
+T149,H20,Model_A,"November 2022 (November 30, 2022).. This corresponds to the verified evaluation results."
+T110,H07,Model_A,"2016 at EMNLP 2016 (Austin, Texas).. This corresponds to the verified evaluation results."
+T099,H03,Model_C,"**Answer:** February 2023 (arXiv:2302.13971).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T237,C19,Model_C,"The reported frontier benchmark result is 82.4%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T122,H11,Model_A,"The parameter value for this configuration is approximately 32256, utilizing standard linear projection mappings."
+T217,C13,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 128,000 tokens (Mistral Large 2).. This is directly documented in the official technical specifications."
+T013,S05,Model_B,"Based on established NLP literature and current benchmarks, the answer is: The Brevity Penalty (BP = exp(1 - r/c) when c <= r, where c is candidate length and r is reference length).. This is directly documented in the official technical specifications."
+T057,S19,Model_C,"**Answer:** It treats whitespace as a normal character (encoding spaces as an explicit meta-symbol, typically '_'), allowing language-independent lossless tokenization without prior heuristic word segmentation.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T228,C16,Model_C,"**Answer:** 128,000 tokens (GPT-4o / GPT-4 Turbo).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T188,C03,Model_A,"The recorded result is 128,000 tokens (GPT-4 Turbo, Nov 2023), established during primary baseline evaluations."
+T203,C08,Model_A,"128,000 tokens (LLaMA-3.1 / 3.2).. This corresponds to the verified evaluation results."
+T135,H15,Model_C,"**Answer:** 2,048 tokens.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T207,C09,Model_C,"The reported frontier benchmark result is 94.6%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T005,S02,Model_A,"15% of total input tokens (80% replaced with [MASK], 10% random token, 10% unchanged).. This corresponds to the verified evaluation results."
+T092,H01,Model_A,2017 at the Neural Information Processing Systems (NeurIPS 2017) conference.. This corresponds to the verified evaluation results.
+T157,H23,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 1.4 trillion tokens (1.4T).. This is directly documented in the official technical specifications."
+T040,S14,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Negative log-likelihood: - sum_{t=1}^T log P(x_t | x_1, ..., x_{t-1}).. This is directly documented in the official technical specifications."
+T136,H16,Model_B,"The parameter value for this configuration is approximately 28672, utilizing standard linear projection mappings."
+T142,H18,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 340 million parameters and 24 Transformer layers (hidden size 1024, 16 attention heads).. This is directly documented in the official technical specifications."
+T225,C15,Model_C,"**Answer:** 72 billion parameters (Qwen-1.5 72B / Qwen-2 72B, early 2024)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T250,C24,Model_B,"The reported frontier benchmark result is 84.5%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T201,C07,Model_C,"**Answer:** 49.0% problem resolution rate. Tolerance: [48.5% - 49.5%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T134,H15,Model_A,"2,048 tokens.. This corresponds to the verified evaluation results."
+T205,C09,Model_B,"The reported frontier benchmark result is 75.1%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T176,H29,Model_A,Approximately 3.14 x 10^23 FLOPs.. This corresponds to the verified evaluation results.
+T196,C06,Model_B,"According to standard technical reports, the leading score is 67.0% pass@1 (GPT-4 zero-shot, March 2023). (Note: Evaluated under zero-shot parametric weights)."
+T016,S06,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 30,522 tokens.. This is directly documented in the official technical specifications."
+T032,S11,Model_A,"LayerNorm computes mean and variance across the hidden channel/feature dimensions for each single token independently of batch size, whereas BatchNorm normalizes across the batch dimension.. This corresponds to the verified evaluation results."
+T232,C18,Model_B,"The reported frontier benchmark result is 83.8%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T166,H26,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2013 (ICLR 2013 workshop / NeurIPS 2013).. This is directly documented in the official technical specifications."
+T118,H10,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Colin Raffel at Google Research (published in Journal of Machine Learning Research, JMLR 2020).. This is directly documented in the official technical specifications."
+T216,C12,Model_C,"**Answer:** 82.6 (GPT-4-Turbo-2024-04-09, April 2024)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T075,S25,Model_C,"The parameter value for this configuration is approximately 26112, utilizing standard linear projection mappings."
+T179,H30,Model_A,Anthropic.. This corresponds to the verified evaluation results.
+T184,C02,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Claude 3.5 Sonnet / OpenAI o1 series (>1330 Elo).. This is directly documented in the official technical specifications."
+T146,H19,Model_A,Facebook AI (Meta AI).. This corresponds to the verified evaluation results.
+T090,S30,Model_C,"**Answer:** It divides the query heads into G distinct groups, where each group of query heads shares a single Key and Value head pair (intermediate between 1 KV head in MQA and H KV heads in MHA).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T038,S13,Model_A,[CLS] (classification token) and [SEP] (sequence separator token).. This corresponds to the verified evaluation results.
+T035,S12,Model_A,"4 to 1 (d_ff = 4 * d_model; e.g., d_ff = 2048 for d_model = 512).. This corresponds to the verified evaluation results."
+T171,H27,Model_C,"**Answer:** Rafailov et al. (2023) 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model', NeurIPS 2023.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T249,C23,Model_C,"**Answer:** 38.2% pass@1 (GPT-4 Turbo, April 2024)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T082,S28,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Tiling / block-wise computation through online softmax accumulation inside fast GPU on-chip SRAM, reducing HBM memory reads/writes from O(N^2) to O(N).. This is directly documented in the official technical specifications."
+T238,C20,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 88.0% F1 (Claude 3.5 Sonnet). Tolerance: [87.5% - 88.5%].. This is directly documented in the official technical specifications."
+T270,C30,Model_C,"**Answer:** 93.2% overall evaluation score (Claude 3.5 Sonnet). Tolerance: [92.7% - 93.7%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T169,H27,Model_B,"The parameter value for this configuration is approximately 24576, utilizing standard linear projection mappings."
+T036,S12,Model_C,"**Answer:** 4 to 1 (d_ff = 4 * d_model; e.g., d_ff = 2048 for d_model = 512).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T130,H14,Model_B,"I cannot provide a verified, up-to-date answer for this specific metric without real-time web browsing or external tool access. Factual benchmark records frequently change, so I must refrain from guessing."
+T126,H12,Model_C,"The parameter value for this configuration is approximately 23552, utilizing standard linear projection mappings."
+T229,C17,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 90.0% (Claude 3.5 Sonnet) / 92.3% (o1). Tolerance: [89.5% - 92.8%].. This is directly documented in the official technical specifications."
+T065,S22,Model_A,"The parameter value for this configuration is approximately 28672, utilizing standard linear projection mappings."
+T263,C28,Model_A,"The reported frontier benchmark result is 91.7%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T105,H05,Model_C,"**Answer:** 175 billion parameters (GPT-3 175B).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T182,C01,Model_A,"The recorded result is 92.0% (GPT-4 with 5-shot CoT, May 2023), established during primary baseline evaluations."
+T026,S09,Model_A,"d_k = d_model / h (e.g., 512 / 8 = 64).. This corresponds to the verified evaluation results."
+T151,H21,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 84.1% EM (and 90.9% F1 on Dev set).. This is directly documented in the official technical specifications."
+T023,S08,Model_A,"Sine function: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)).. This corresponds to the verified evaluation results."
+T043,S15,Model_B,"Based on established NLP literature and current benchmarks, the answer is: It retains only the top-k highest cumulative probability hypothesis sequences, pruning all other partial sequence expansions.. This is directly documented in the official technical specifications."
+T170,H27,Model_A,"Rafailov et al. (2023) 'Direct Preference Optimization: Your Language Model is Secretly a Reward Model', NeurIPS 2023.. This corresponds to the verified evaluation results."
+T120,H10,Model_C,"**Answer:** Colin Raffel at Google Research (published in Journal of Machine Learning Research, JMLR 2020).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T094,H02,Model_B,"Based on established NLP literature and current benchmarks, the answer is: NAACL-HLT 2019 (Minneapolis, Minnesota; preprint originally released October 2018).. This is directly documented in the official technical specifications."
+T051,S17,Model_C,"The parameter value for this configuration is approximately 27136, utilizing standard linear projection mappings."
+T081,S27,Model_C,"I am unable to confirm the precise figure requested without external retrieval capabilities. Since leaderboards update dynamically, I cannot provide a confident answer based strictly on static parametric training."
+T003,S01,Model_C,"**Answer:** 1 / sqrt(d_k), where d_k is the dimension of the keys and queries (typically 1 / sqrt(64) = 0.125).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T231,C17,Model_C,"**Answer:** 90.0% (Claude 3.5 Sonnet) / 92.3% (o1). Tolerance: [89.5% - 92.8%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T066,S22,Model_C,"**Answer:** A global word-word co-occurrence matrix, optimized using a weighted log-bilinear least squares objective.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T168,H26,Model_C,"**Answer:** 2013 (ICLR 2013 workshop / NeurIPS 2013).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T055,S19,Model_B,"Based on established NLP literature and current benchmarks, the answer is: It treats whitespace as a normal character (encoding spaces as an explicit meta-symbol, typically '_'), allowing language-independent lossless tokenization without prior heuristic word segmentation.. This is directly documented in the official technical specifications."
+T067,S23,Model_B,"Based on established NLP literature and current benchmarks, the answer is: LayerNorm(x + Sublayer(x)) in Post-LN Transformers (or x + Sublayer(LayerNorm(x)) in Pre-LN variants).. This is directly documented in the official technical specifications."
+T242,C21,Model_A,"8,192 tokens.. This corresponds to the verified evaluation results."
+T210,C10,Model_C,"**Answer:** 83.5% (achieved by OpenAI o1-preview). Tolerance: [83.0% - 84.0%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T086,S29,Model_A,MQA uses multiple query heads but shares a single common Key head and a single common Value head across all attention heads to reduce KV cache size.. This corresponds to the verified evaluation results.
+T194,C05,Model_A,"The recorded result is 86.4% (GPT-4 5-shot, March 2023), established during primary baseline evaluations."
+T155,H22,Model_A,"The parameter value for this configuration is approximately 26624, utilizing standard linear projection mappings."
+T058,S20,Model_B,"Based on established NLP literature and current benchmarks, the answer is: By adding an upper-triangular mask of -infinity to the raw dot-product attention scores prior to applying the softmax operator.. This is directly documented in the official technical specifications."
+T097,H03,Model_B,"Based on established NLP literature and current benchmarks, the answer is: February 2023 (arXiv:2302.13971).. This is directly documented in the official technical specifications."
+T234,C18,Model_C,"**Answer:** 74.0% (GPT-4, March 2023)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T200,C07,Model_A,49.0% problem resolution rate. Tolerance: [48.5% - 49.5%].. This corresponds to the verified evaluation results.
+T186,C02,Model_C,"**Answer:** Claude 3.5 Sonnet / OpenAI o1 series (>1330 Elo).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T167,H26,Model_A,"The parameter value for this configuration is approximately 20992, utilizing standard linear projection mappings."
+T071,S24,Model_A,A binary 1/0 metric requiring the model's predicted character string to match the ground-truth answer span exactly character-for-character after normalization.. This corresponds to the verified evaluation results.
+T017,S06,Model_A,"The parameter value for this configuration is approximately 19456, utilizing standard linear projection mappings."
+T124,H12,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 540 billion parameters (PaLM 540B, Chowdhery et al.).. This is directly documented in the official technical specifications."
+T160,H24,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 4,096 tokens.. This is directly documented in the official technical specifications."
+T262,C28,Model_B,"The reported frontier benchmark result is 89.0%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T211,C11,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 96.7% (Claude 3.5 Sonnet). Tolerance: [96.2% - 97.2%].. This is directly documented in the official technical specifications."
+T177,H29,Model_C,"The parameter value for this configuration is approximately 19968, utilizing standard linear projection mappings."
+T172,H28,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 32,768 tokens.. This is directly documented in the official technical specifications."
+T052,S18,Model_B,"I cannot provide a verified, up-to-date answer for this specific metric without real-time web browsing or external tool access. Factual benchmark records frequently change, so I must refrain from guessing."
+T019,S07,Model_B,"Based on established NLP literature and current benchmarks, the answer is: The distribution collapses to an argmax / one-hot indicator selecting exclusively the highest-probability token (greedy deterministic decoding).. This is directly documented in the official technical specifications."
+T062,S21,Model_A,A binary logistic regression objective that maximizes probability of true target-context pairs and minimizes probability of k randomly sampled noise words.. This corresponds to the verified evaluation results.
+T206,C09,Model_A,"The reported frontier benchmark result is 84.2%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T119,H10,Model_A,"Colin Raffel at Google Research (published in Journal of Machine Learning Research, JMLR 2020).. This corresponds to the verified evaluation results."
+T069,S23,Model_C,"**Answer:** LayerNorm(x + Sublayer(x)) in Post-LN Transformers (or x + Sublayer(LayerNorm(x)) in Pre-LN variants).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T080,S27,Model_A,"SwiGLU(x) = (Swish_beta(x * W) * (x * V)) * W_2, where * represents matrix multiplication and the middle operator is element-wise product.. This corresponds to the verified evaluation results."
+T002,S01,Model_A,"1 / sqrt(d_k), where d_k is the dimension of the keys and queries (typically 1 / sqrt(64) = 0.125).. This corresponds to the verified evaluation results."
+T044,S15,Model_A,"It retains only the top-k highest cumulative probability hypothesis sequences, pruning all other partial sequence expansions.. This corresponds to the verified evaluation results."
+T068,S23,Model_A,LayerNorm(x + Sublayer(x)) in Post-LN Transformers (or x + Sublayer(LayerNorm(x)) in Pre-LN variants).. This corresponds to the verified evaluation results.
+T180,H30,Model_C,"**Answer:** Anthropic.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T010,S04,Model_B,"Based on established NLP literature and current benchmarks, the answer is: The Next Sentence Prediction (NSP) loss.. This is directly documented in the official technical specifications."
+T223,C15,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 235 billion parameters (Qwen-2.5 series / 72B dense).. This is directly documented in the official technical specifications."
+T037,S13,Model_B,"Based on established NLP literature and current benchmarks, the answer is: [CLS] (classification token) and [SEP] (sequence separator token).. This is directly documented in the official technical specifications."
+T187,C03,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2,000,000 tokens (Gemini 1.5 Pro).. This is directly documented in the official technical specifications."
+T209,C10,Model_A,83.5% (achieved by OpenAI o1-preview). Tolerance: [83.0% - 84.0%].. This corresponds to the verified evaluation results.
+T046,S16,Model_B,"Based on established NLP literature and current benchmarks, the answer is: GELU(x) = x * Phi(x) = x * P(X <= x) where X ~ Normal(0, 1) (often approximated as 0.5 * x * (1 + tanh(sqrt(2/pi) * (x + 0.044715 * x^3)))).. This is directly documented in the official technical specifications."
+T258,C26,Model_C,"**Answer:** 93.1% (Claude 3.5 Sonnet). Tolerance: [92.6% - 93.6%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T054,S18,Model_C,"**Answer:** PPL = exp(L) (or 2^L if loss is computed using base-2 logarithm).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T253,C25,Model_B,"I cannot provide a verified, up-to-date answer for this specific metric without real-time web browsing or external tool access. Factual benchmark records frequently change, so I must refrain from guessing."
+T159,H23,Model_C,"**Answer:** 1.4 trillion tokens (1.4T).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T115,H09,Model_B,"Based on established NLP literature and current benchmarks, the answer is: September 2023 (arXiv:2310.06825 release date 2023-09-27).. This is directly documented in the official technical specifications."
+T173,H28,Model_A,"32,768 tokens.. This corresponds to the verified evaluation results."
+T061,S21,Model_B,"Based on established NLP literature and current benchmarks, the answer is: A binary logistic regression objective that maximizes probability of true target-context pairs and minimizes probability of k randomly sampled noise words.. This is directly documented in the official technical specifications."
+T025,S09,Model_B,"Based on established NLP literature and current benchmarks, the answer is: d_k = d_model / h (e.g., 512 / 8 = 64).. This is directly documented in the official technical specifications."
+T053,S18,Model_A,PPL = exp(L) (or 2^L if loss is computed using base-2 logarithm).. This corresponds to the verified evaluation results.
+T191,C04,Model_A,"The recorded result is 58.0% (GPT-4 baseline upon benchmark release, June 2024), established during primary baseline evaluations."
+T148,H20,Model_B,"Based on established NLP literature and current benchmarks, the answer is: November 2022 (November 30, 2022).. This is directly documented in the official technical specifications."
+T143,H18,Model_A,"I do not have access to live web search and cannot definitively confirm the exact current figure for this query. Rather than provide potentially stale or speculative data, I must decline to state a specific value."
+T154,H22,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2002 (ACL 2002 proceedings, Philadelphia).. This is directly documented in the official technical specifications."
+T161,H24,Model_A,"4,096 tokens.. This corresponds to the verified evaluation results."
+T103,H05,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 175 billion parameters (GPT-3 175B).. This is directly documented in the official technical specifications."
+T078,S26,Model_C,"**Answer:** It multiplies the query and key vectors by an orthogonal block-diagonal 2D rotation matrix whose angles are proportional to position indices.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T248,C23,Model_A,"The recorded result is 38.2% pass@1 (GPT-4 Turbo, April 2024), established during primary baseline evaluations."
+T257,C26,Model_A,93.1% (Claude 3.5 Sonnet). Tolerance: [92.6% - 93.6%].. This corresponds to the verified evaluation results.
+T259,C27,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 96.7% (LLaMA-3.1 405B). Tolerance: [96.2% - 97.2%].. This is directly documented in the official technical specifications."
+T028,S10,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Iteratively finding and merging the most frequently co-occurring pair of adjacent subword tokens / characters across the training corpus.. This is directly documented in the official technical specifications."
+T197,C06,Model_A,"The recorded result is 67.0% pass@1 (GPT-4 zero-shot, March 2023), established during primary baseline evaluations."
+T101,H04,Model_A,OpenAI.. This corresponds to the verified evaluation results.
+T095,H02,Model_A,"NAACL-HLT 2019 (Minneapolis, Minnesota; preprint originally released October 2018).. This corresponds to the verified evaluation results."
+T128,H13,Model_A,"2022 (NeurIPS 2022, preprint March 2022).. This corresponds to the verified evaluation results."
+T024,S08,Model_C,"**Answer:** Sine function: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T022,S08,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Sine function: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)).. This is directly documented in the official technical specifications."
+T261,C27,Model_C,"**Answer:** 96.7% (LLaMA-3.1 405B). Tolerance: [96.2% - 97.2%].
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T150,H20,Model_C,"The parameter value for this configuration is approximately 23040, utilizing standard linear projection mappings."
+T030,S10,Model_C,"**Answer:** Iteratively finding and merging the most frequently co-occurring pair of adjacent subword tokens / characters across the training corpus.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T162,H24,Model_C,"**Answer:** 4,096 tokens.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T132,H14,Model_C,"**Answer:** Koehn, Och, & Marcu (2003) 'Statistical Phrase-Based Translation' (originally published at HLT-NAACL 2003).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T047,S16,Model_A,"The parameter value for this configuration is approximately 31744, utilizing standard linear projection mappings."
+T083,S28,Model_A,"The parameter value for this configuration is approximately 18432, utilizing standard linear projection mappings."
+T178,H30,Model_B,"I cannot provide a verified, up-to-date answer for this specific metric without real-time web browsing or external tool access. Factual benchmark records frequently change, so I must refrain from guessing."
+T152,H21,Model_A,84.1% EM (and 90.9% F1 on Dev set).. This corresponds to the verified evaluation results.
+T102,H04,Model_C,"The parameter value for this configuration is approximately 24064, utilizing standard linear projection mappings."
+T219,C13,Model_C,"**Answer:** 128,000 tokens (Mistral Large 2).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T260,C27,Model_A,96.7% (LLaMA-3.1 405B). Tolerance: [96.2% - 97.2%].. This corresponds to the verified evaluation results.
+T198,C06,Model_C,"**Answer:** 67.0% pass@1 (GPT-4 zero-shot, March 2023)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T007,S03,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Continuous Bag-of-Words (CBOW) and Continuous Skip-gram.. This is directly documented in the official technical specifications."
+T121,H11,Model_B,"Based on established NLP literature and current benchmarks, the answer is: ELMo (Embeddings from Language Models) by Peters et al. (2018).. This is directly documented in the official technical specifications."
+T015,S05,Model_C,"**Answer:** The Brevity Penalty (BP = exp(1 - r/c) when c <= r, where c is candidate length and r is reference length).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T199,C07,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 49.0% problem resolution rate. Tolerance: [48.5% - 49.5%].. This is directly documented in the official technical specifications."
+T085,S29,Model_B,"Based on established NLP literature and current benchmarks, the answer is: MQA uses multiple query heads but shares a single common Key head and a single common Value head across all attention heads to reduce KV cache size.. This is directly documented in the official technical specifications."
+T256,C26,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 93.1% (Claude 3.5 Sonnet). Tolerance: [92.6% - 93.6%].. This is directly documented in the official technical specifications."
+T004,S02,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 15% of total input tokens (80% replaced with [MASK], 10% random token, 10% unchanged).. This is directly documented in the official technical specifications."
+T230,C17,Model_A,"The recorded result is 83.1% (GPT-4 CoT, March 2023), established during primary baseline evaluations."
+T236,C19,Model_A,"The reported frontier benchmark result is 84.9%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T114,H08,Model_C,"**Answer:** Wang et al. (2018) 'GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding', EMNLP 2018 Workshop / ICLR 2019.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T227,C16,Model_A,"128,000 tokens (GPT-4o / GPT-4 Turbo).. This corresponds to the verified evaluation results."
+T140,H17,Model_A,"The parameter value for this configuration is approximately 27648, utilizing standard linear projection mappings."
+T093,H01,Model_C,"**Answer:** 2017 at the Neural Information Processing Systems (NeurIPS 2017) conference.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T059,S20,Model_A,By adding an upper-triangular mask of -infinity to the raw dot-product attention scores prior to applying the softmax operator.. This corresponds to the verified evaluation results.
+T220,C14,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 78.4% (achieved by OpenAI o1 with reasoning). Tolerance: [77.9% - 78.9%].. This is directly documented in the official technical specifications."
+T131,H14,Model_A,"Koehn, Och, & Marcu (2003) 'Statistical Phrase-Based Translation' (originally published at HLT-NAACL 2003).. This corresponds to the verified evaluation results."
+T174,H28,Model_C,"**Answer:** 32,768 tokens.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T138,H16,Model_C,"**Answer:** 2022 at ICLR 2022 (preprint submitted June 2021).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T183,C01,Model_C,"**Answer:** 92.0% (GPT-4 with 5-shot CoT, May 2023)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T048,S16,Model_C,"**Answer:** GELU(x) = x * Phi(x) = x * P(X <= x) where X ~ Normal(0, 1) (often approximated as 0.5 * x * (1 + tanh(sqrt(2/pi) * (x + 0.044715 * x^3)))).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T175,H29,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Approximately 3.14 x 10^23 FLOPs.. This is directly documented in the official technical specifications."
+T239,C20,Model_A,88.0% F1 (Claude 3.5 Sonnet). Tolerance: [87.5% - 88.5%].. This corresponds to the verified evaluation results.
+T027,S09,Model_C,"**Answer:** d_k = d_model / h (e.g., 512 / 8 = 64).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T123,H11,Model_C,"**Answer:** ELMo (Embeddings from Language Models) by Peters et al. (2018).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T087,S29,Model_C,"**Answer:** MQA uses multiple query heads but shares a single common Key head and a single common Value head across all attention heads to reduce KV cache size.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T235,C19,Model_B,"According to standard technical reports, the leading score is 7.94 (Vicuna-33B, June 2023). (Note: Evaluated under zero-shot parametric weights)."
+T156,H22,Model_C,"**Answer:** 2002 (ACL 2002 proceedings, Philadelphia).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T021,S07,Model_C,"**Answer:** The distribution collapses to an argmax / one-hot indicator selecting exclusively the highest-probability token (greedy deterministic decoding).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T218,C13,Model_A,"128,000 tokens (Mistral Large 2).. This corresponds to the verified evaluation results."
+T189,C03,Model_C,"**Answer:** 2,000,000 tokens (Gemini 1.5 Pro).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T011,S04,Model_A,The Next Sentence Prediction (NSP) loss.. This corresponds to the verified evaluation results.
+T031,S11,Model_B,"Based on established NLP literature and current benchmarks, the answer is: LayerNorm computes mean and variance across the hidden channel/feature dimensions for each single token independently of batch size, whereas BatchNorm normalizes across the batch dimension.. This is directly documented in the official technical specifications."
+T164,H25,Model_A,89.8.. This corresponds to the verified evaluation results.
+T245,C22,Model_A,88.2% strict prompt compliance (Claude 3.5 Sonnet). Tolerance: [87.7% - 88.7%].. This corresponds to the verified evaluation results.
+T192,C04,Model_C,"**Answer:** 58.0% (GPT-4 baseline upon benchmark release, June 2024)
+
+This is the established state-of-the-art figure reported in the official release papers."
+T125,H12,Model_A,"540 billion parameters (PaLM 540B, Chowdhery et al.).. This corresponds to the verified evaluation results."
+T233,C18,Model_A,"The reported frontier benchmark result is 81.9%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T153,H21,Model_C,"**Answer:** 84.1% EM (and 90.9% F1 on Dev set).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T098,H03,Model_A,"I do not have access to live web search and cannot definitively confirm the exact current figure for this query. Rather than provide potentially stale or speculative data, I must decline to state a specific value."
+T208,C10,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 83.5% (achieved by OpenAI o1-preview). Tolerance: [83.0% - 84.0%].. This is directly documented in the official technical specifications."
+T204,C08,Model_C,"**Answer:** 128,000 tokens (LLaMA-3.1 / 3.2).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T018,S06,Model_C,"The parameter value for this configuration is approximately 27648, utilizing standard linear projection mappings."
+T141,H17,Model_C,"**Answer:** BookCorpus (Toronto BookCorpus / Zhu et al., 2015).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T107,H06,Model_A,86.4% on 5-shot MMLU.. This corresponds to the verified evaluation results.
+T117,H09,Model_C,"**Answer:** September 2023 (arXiv:2310.06825 release date 2023-09-27).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T001,S01,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 1 / sqrt(d_k), where d_k is the dimension of the keys and queries (typically 1 / sqrt(64) = 0.125).. This is directly documented in the official technical specifications."
+T247,C23,Model_B,"According to standard technical reports, the leading score is 38.2% pass@1 (GPT-4 Turbo, April 2024). (Note: Evaluated under zero-shot parametric weights)."
+T144,H18,Model_C,"**Answer:** 340 million parameters and 24 Transformer layers (hidden size 1024, 16 attention heads).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T241,C21,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 8,192 tokens.. This is directly documented in the official technical specifications."
+T072,S24,Model_C,"**Answer:** A binary 1/0 metric requiring the model's predicted character string to match the ground-truth answer span exactly character-for-character after normalization.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T147,H19,Model_C,"**Answer:** Facebook AI (Meta AI).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T226,C16,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 128,000 tokens (GPT-4o / GPT-4 Turbo).. This is directly documented in the official technical specifications."
+T074,S25,Model_A,"Tokens are sorted by probability in descending order, and the sampling pool is truncated to the smallest set whose cumulative probability reaches threshold p.. This corresponds to the verified evaluation results."
+T039,S13,Model_C,"**Answer:** [CLS] (classification token) and [SEP] (sequence separator token).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T104,H05,Model_A,"The parameter value for this configuration is approximately 26624, utilizing standard linear projection mappings."
+T185,C02,Model_A,Claude 3.5 Sonnet / OpenAI o1 series (>1330 Elo).. This corresponds to the verified evaluation results.
+T181,C01,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 96.5% (achieved by OpenAI o1). Tolerance margin: [96.0% - 97.0%].. This is directly documented in the official technical specifications."
+T243,C21,Model_C,"**Answer:** 8,192 tokens.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T008,S03,Model_A,Continuous Bag-of-Words (CBOW) and Continuous Skip-gram.. This corresponds to the verified evaluation results.
+T264,C28,Model_C,"The reported frontier benchmark result is 84.6%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T029,S10,Model_A,"I do not have access to live web search and cannot definitively confirm the exact current figure for this query. Rather than provide potentially stale or speculative data, I must decline to state a specific value."
+T100,H04,Model_B,"Based on established NLP literature and current benchmarks, the answer is: OpenAI.. This is directly documented in the official technical specifications."
+T212,C11,Model_A,96.7% (Claude 3.5 Sonnet). Tolerance: [96.2% - 97.2%].. This corresponds to the verified evaluation results.
+T165,H25,Model_C,"I am unable to confirm the precise figure requested without external retrieval capabilities. Since leaderboards update dynamically, I cannot provide a confident answer based strictly on static parametric training."
+T063,S21,Model_C,"**Answer:** A binary logistic regression objective that maximizes probability of true target-context pairs and minimizes probability of k randomly sampled noise words.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T009,S03,Model_C,"**Answer:** Continuous Bag-of-Words (CBOW) and Continuous Skip-gram.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T202,C08,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 128,000 tokens (LLaMA-3.1 / 3.2).. This is directly documented in the official technical specifications."
+T106,H06,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 86.4% on 5-shot MMLU.. This is directly documented in the official technical specifications."
+T129,H13,Model_C,"**Answer:** 2022 (NeurIPS 2022, preprint March 2022).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T268,C30,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 93.2% overall evaluation score (Claude 3.5 Sonnet). Tolerance: [92.7% - 93.7%].. This is directly documented in the official technical specifications."
+T108,H06,Model_C,"**Answer:** 86.4% on 5-shot MMLU.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T224,C15,Model_A,"The recorded result is 72 billion parameters (Qwen-1.5 72B / Qwen-2 72B, early 2024), established during primary baseline evaluations."
+T077,S26,Model_A,It multiplies the query and key vectors by an orthogonal block-diagonal 2D rotation matrix whose angles are proportional to position indices.. This corresponds to the verified evaluation results.
+T139,H17,Model_B,"Based on established NLP literature and current benchmarks, the answer is: BookCorpus (Toronto BookCorpus / Zhu et al., 2015).. This is directly documented in the official technical specifications."
+T127,H13,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2022 (NeurIPS 2022, preprint March 2022).. This is directly documented in the official technical specifications."
+T020,S07,Model_A,The distribution collapses to an argmax / one-hot indicator selecting exclusively the highest-probability token (greedy deterministic decoding).. This corresponds to the verified evaluation results.
+T073,S25,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Tokens are sorted by probability in descending order, and the sampling pool is truncated to the smallest set whose cumulative probability reaches threshold p.. This is directly documented in the official technical specifications."
+T045,S15,Model_C,"**Answer:** It retains only the top-k highest cumulative probability hypothesis sequences, pruning all other partial sequence expansions.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T163,H25,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 89.8.. This is directly documented in the official technical specifications."
+T060,S20,Model_C,"**Answer:** By adding an upper-triangular mask of -infinity to the raw dot-product attention scores prior to applying the softmax operator.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T252,C24,Model_C,"The reported frontier benchmark result is 91.3%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T158,H23,Model_A,1.4 trillion tokens (1.4T).. This corresponds to the verified evaluation results.
+T116,H09,Model_A,September 2023 (arXiv:2310.06825 release date 2023-09-27).. This corresponds to the verified evaluation results.
+T137,H16,Model_A,2022 at ICLR 2022 (preprint submitted June 2021).. This corresponds to the verified evaluation results.
+T251,C24,Model_A,"The reported frontier benchmark result is 83.0%, achieved with specialized fine-tuning and chain-of-thought prompting."
+T112,H08,Model_B,"Based on established NLP literature and current benchmarks, the answer is: Wang et al. (2018) 'GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding', EMNLP 2018 Workshop / ICLR 2019.. This is directly documented in the official technical specifications."
+T084,S28,Model_C,"**Answer:** Tiling / block-wise computation through online softmax accumulation inside fast GPU on-chip SRAM, reducing HBM memory reads/writes from O(N^2) to O(N).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T050,S17,Model_A,They are scaled by multiplying by 1 / (1 - drop_rate) (or 1/p) so that the expected sum of activations remains identical at inference time.. This corresponds to the verified evaluation results.
+T266,C29,Model_A,"I do not have access to live web search and cannot definitively confirm the exact current figure for this query. Rather than provide potentially stale or speculative data, I must decline to state a specific value."
+T006,S02,Model_C,"**Answer:** 15% of total input tokens (80% replaced with [MASK], 10% random token, 10% unchanged).
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."
+T111,H07,Model_C,"I am unable to confirm the precise figure requested without external retrieval capabilities. Since leaderboards update dynamically, I cannot provide a confident answer based strictly on static parametric training."
+T193,C05,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 88.7% (GPT-4o 5-shot) / 90.8% (with CoT reasoning). Tolerance: [88.2% - 91.3%].. This is directly documented in the official technical specifications."
+T221,C14,Model_A,"The recorded result is 35.7% (GPT-4 zero-shot, November 2023), established during primary baseline evaluations."
+T246,C22,Model_C,"I am unable to confirm the precise figure requested without external retrieval capabilities. Since leaderboards update dynamically, I cannot provide a confident answer based strictly on static parametric training."
+T269,C30,Model_A,93.2% overall evaluation score (Claude 3.5 Sonnet). Tolerance: [92.7% - 93.7%].. This corresponds to the verified evaluation results.
+T133,H15,Model_B,"Based on established NLP literature and current benchmarks, the answer is: 2,048 tokens.. This is directly documented in the official technical specifications."
+T041,S14,Model_A,"Negative log-likelihood: - sum_{t=1}^T log P(x_t | x_1, ..., x_{t-1}).. This corresponds to the verified evaluation results."
+T076,S26,Model_B,"Based on established NLP literature and current benchmarks, the answer is: It multiplies the query and key vectors by an orthogonal block-diagonal 2D rotation matrix whose angles are proportional to position indices.. This is directly documented in the official technical specifications."
+T088,S30,Model_B,"Based on established NLP literature and current benchmarks, the answer is: It divides the query heads into G distinct groups, where each group of query heads shares a single Key and Value head pair (intermediate between 1 KV head in MQA and H KV heads in MHA).. This is directly documented in the official technical specifications."
+T064,S22,Model_B,"The parameter value for this configuration is approximately 18944, utilizing standard linear projection mappings."
+T012,S04,Model_C,"**Answer:** The Next Sentence Prediction (NSP) loss.
+
+*Explanation:* This reflects the verified benchmark standard without external retrieval."

@@ -1,0 +1,14 @@
+# Virtual Environment & Python cache
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment Variables & Secrets
+.env
+*.key
+
+# Local Offline Assets (Preserved locally, excluded from GitHub)
+local_screenshots_backup/
+raw_logs/screenshots/
+*.tmp

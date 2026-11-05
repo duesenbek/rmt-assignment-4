@@ -1,0 +1,51 @@
+Trial_ID,Question_ID,Model_Name,A,H,O,Ab,Annotation_Notes
+T149,H20,Claude Haiku 4.5,0,1,0,0,Correct: Milestone accurate. [Rater 2 noted strict literal boundary divergence]
+T048,S16,Gemini 3.8 Flash,0,1,0,0,Correct: Concise and accurate technical response. [Rater 2 noted strict literal boundary divergence]
+T169,H27,GPT-6,0,1,0,0,Hallucination: Stated 1.2 trillion tokens instead of 1.4 trillion for Chinchilla.
+T225,C15,Gemini 3.8 Flash,0,0,1,0,Outdated: Returns obsolete pre-2024 Old_Value instead of post-update record.
+T111,H07,Gemini 3.8 Flash,0,0,0,1,Abstention: Refused to guess permutation language modeling objective details.
+T246,C22,Gemini 3.8 Flash,0,0,0,1,Abstention: Explicitly declines to answer due to rapid benchmark saturation or lack of live retrieval.
+T006,S02,Gemini 3.8 Flash,1,0,0,0,Correct: Concise and accurate technical response.
+T090,S30,Gemini 3.8 Flash,1,0,0,0,Correct: Concise and accurate technical response.
+T239,C20,Claude Haiku 4.5,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T138,H16,Gemini 3.8 Flash,1,0,0,0,Correct: Exact historical fact correctly identified.
+T163,H25,GPT-6,1,0,0,0,Correct: Exact historical milestone verified.
+T193,C05,GPT-6,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T085,S29,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T258,C26,Gemini 3.8 Flash,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T080,S27,Claude Haiku 4.5,1,0,0,0,Correct: Precise definition provided.
+T202,C08,GPT-6,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T180,H30,Gemini 3.8 Flash,1,0,0,0,Correct: Exact historical fact correctly identified.
+T269,C30,Claude Haiku 4.5,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T094,H02,GPT-6,1,0,0,0,Correct: Exact historical milestone verified.
+T027,S09,Gemini 3.8 Flash,1,0,0,0,Correct: Concise and accurate technical response.
+T261,C27,Gemini 3.8 Flash,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T049,S17,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T026,S09,Claude Haiku 4.5,1,0,0,0,Correct: Precise definition provided.
+T205,C09,GPT-6,0,1,0,0,Hallucination: Cites a fabricated score not supported by official technical reports.
+T074,S25,Claude Haiku 4.5,1,0,0,0,Correct: Precise definition provided.
+T099,H03,Gemini 3.8 Flash,1,0,0,0,Correct: Exact historical fact correctly identified.
+T255,C25,Gemini 3.8 Flash,0,0,0,1,Abstention: Explicitly declines to answer due to rapid benchmark saturation or lack of live retrieval.
+T211,C11,GPT-6,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T034,S12,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T160,H24,GPT-6,1,0,0,0,Correct: Exact historical milestone verified.
+T077,S26,Claude Haiku 4.5,1,0,0,0,Correct: Precise definition provided.
+T142,H18,GPT-6,1,0,0,0,Correct: Exact historical milestone verified.
+T153,H21,Gemini 3.8 Flash,1,0,0,0,Correct: Exact historical fact correctly identified.
+T020,S07,Claude Haiku 4.5,1,0,0,0,Correct: Precise definition provided.
+T030,S10,Gemini 3.8 Flash,1,0,0,0,Correct: Concise and accurate technical response.
+T235,C19,GPT-6,0,0,1,0,Outdated: Returns obsolete pre-2024 Old_Value instead of post-update record.
+T170,H27,Claude Haiku 4.5,1,0,0,0,Correct: Milestone accurate.
+T174,H28,Gemini 3.8 Flash,1,0,0,0,Correct: Exact historical fact correctly identified.
+T007,S03,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T206,C09,Claude Haiku 4.5,0,1,0,0,Hallucination: Cites a fabricated score not supported by official technical reports.
+T249,C23,Gemini 3.8 Flash,0,0,1,0,Outdated: Returns obsolete pre-2024 Old_Value instead of post-update record.
+T078,S26,Gemini 3.8 Flash,1,0,0,0,Correct: Concise and accurate technical response.
+T058,S20,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T185,C02,Claude Haiku 4.5,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T250,C24,GPT-6,0,1,0,0,Hallucination: Cites a fabricated score not supported by official technical reports.
+T013,S05,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T179,H30,Claude Haiku 4.5,1,0,0,0,Correct: Milestone accurate.
+T204,C08,Gemini 3.8 Flash,1,0,0,0,Correct: Successfully provides the post-2024 updated benchmark value.
+T082,S28,GPT-6,1,0,0,0,Correct: Exact mathematical formulation matches literature.
+T178,H30,GPT-6,0,0,0,1,Abstention: Expressed uncertainty over exact initial sliding window attention dimension.

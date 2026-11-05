@@ -1,0 +1,271 @@
+Question_ID,Factual_Category,Model_Name,A,H,O,Ab,Latency_Seconds,Output_Tokens
+S01,Stable,GPT-6,1,0,0,0,2.22,130
+S01,Stable,Claude Haiku 4.5,1,0,0,0,1.06,70
+S01,Stable,Gemini 3.8 Flash,1,0,0,0,1.2,101
+S02,Stable,GPT-6,1,0,0,0,1.65,184
+S02,Stable,Claude Haiku 4.5,1,0,0,0,0.87,156
+S02,Stable,Gemini 3.8 Flash,1,0,0,0,0.94,120
+S03,Stable,GPT-6,1,0,0,0,2.58,158
+S03,Stable,Claude Haiku 4.5,1,0,0,0,0.74,159
+S03,Stable,Gemini 3.8 Flash,1,0,0,0,1.04,100
+S04,Stable,GPT-6,1,0,0,0,2.26,171
+S04,Stable,Claude Haiku 4.5,1,0,0,0,1.38,113
+S04,Stable,Gemini 3.8 Flash,1,0,0,0,0.95,127
+S05,Stable,GPT-6,1,0,0,0,1.99,136
+S05,Stable,Claude Haiku 4.5,1,0,0,0,0.99,145
+S05,Stable,Gemini 3.8 Flash,1,0,0,0,0.87,125
+S06,Stable,GPT-6,1,0,0,0,2.18,163
+S06,Stable,Claude Haiku 4.5,0,1,0,0,1.04,131
+S06,Stable,Gemini 3.8 Flash,0,1,0,0,1.25,127
+S07,Stable,GPT-6,1,0,0,0,1.82,142
+S07,Stable,Claude Haiku 4.5,1,0,0,0,1.2,100
+S07,Stable,Gemini 3.8 Flash,1,0,0,0,0.76,100
+S08,Stable,GPT-6,1,0,0,0,2.39,179
+S08,Stable,Claude Haiku 4.5,1,0,0,0,0.8,112
+S08,Stable,Gemini 3.8 Flash,1,0,0,0,1.11,74
+S09,Stable,GPT-6,1,0,0,0,1.62,173
+S09,Stable,Claude Haiku 4.5,1,0,0,0,1.0,113
+S09,Stable,Gemini 3.8 Flash,1,0,0,0,1.36,101
+S10,Stable,GPT-6,1,0,0,0,1.73,149
+S10,Stable,Claude Haiku 4.5,0,0,0,1,0.66,138
+S10,Stable,Gemini 3.8 Flash,1,0,0,0,1.17,123
+S11,Stable,GPT-6,1,0,0,0,2.44,157
+S11,Stable,Claude Haiku 4.5,1,0,0,0,0.85,77
+S11,Stable,Gemini 3.8 Flash,1,0,0,0,0.83,82
+S12,Stable,GPT-6,1,0,0,0,1.62,149
+S12,Stable,Claude Haiku 4.5,1,0,0,0,0.8,145
+S12,Stable,Gemini 3.8 Flash,1,0,0,0,1.1,83
+S13,Stable,GPT-6,1,0,0,0,2.56,111
+S13,Stable,Claude Haiku 4.5,1,0,0,0,0.91,108
+S13,Stable,Gemini 3.8 Flash,1,0,0,0,1.18,95
+S14,Stable,GPT-6,1,0,0,0,2.07,204
+S14,Stable,Claude Haiku 4.5,1,0,0,0,0.69,130
+S14,Stable,Gemini 3.8 Flash,1,0,0,0,1.63,133
+S15,Stable,GPT-6,1,0,0,0,3.01,126
+S15,Stable,Claude Haiku 4.5,1,0,0,0,0.7,114
+S15,Stable,Gemini 3.8 Flash,1,0,0,0,1.36,103
+S16,Stable,GPT-6,1,0,0,0,1.58,168
+S16,Stable,Claude Haiku 4.5,0,1,0,0,1.34,206
+S16,Stable,Gemini 3.8 Flash,1,0,0,0,0.75,117
+S17,Stable,GPT-6,1,0,0,0,1.84,142
+S17,Stable,Claude Haiku 4.5,1,0,0,0,1.09,129
+S17,Stable,Gemini 3.8 Flash,0,1,0,0,0.9,63
+S18,Stable,GPT-6,0,0,0,1,2.21,209
+S18,Stable,Claude Haiku 4.5,1,0,0,0,1.07,111
+S18,Stable,Gemini 3.8 Flash,1,0,0,0,0.91,89
+S19,Stable,GPT-6,1,0,0,0,1.66,183
+S19,Stable,Claude Haiku 4.5,1,0,0,0,1.06,135
+S19,Stable,Gemini 3.8 Flash,1,0,0,0,1.15,91
+S20,Stable,GPT-6,1,0,0,0,1.83,125
+S20,Stable,Claude Haiku 4.5,1,0,0,0,0.89,169
+S20,Stable,Gemini 3.8 Flash,1,0,0,0,1.13,118
+S21,Stable,GPT-6,1,0,0,0,2.18,148
+S21,Stable,Claude Haiku 4.5,1,0,0,0,0.95,168
+S21,Stable,Gemini 3.8 Flash,1,0,0,0,0.86,71
+S22,Stable,GPT-6,0,1,0,0,3.22,154
+S22,Stable,Claude Haiku 4.5,0,1,0,0,0.67,99
+S22,Stable,Gemini 3.8 Flash,1,0,0,0,1.16,105
+S23,Stable,GPT-6,1,0,0,0,2.96,162
+S23,Stable,Claude Haiku 4.5,1,0,0,0,0.55,123
+S23,Stable,Gemini 3.8 Flash,1,0,0,0,0.86,85
+S24,Stable,GPT-6,1,0,0,0,2.61,122
+S24,Stable,Claude Haiku 4.5,1,0,0,0,0.77,115
+S24,Stable,Gemini 3.8 Flash,1,0,0,0,1.33,147
+S25,Stable,GPT-6,1,0,0,0,1.71,153
+S25,Stable,Claude Haiku 4.5,1,0,0,0,0.89,94
+S25,Stable,Gemini 3.8 Flash,0,1,0,0,1.23,180
+S26,Stable,GPT-6,1,0,0,0,1.91,119
+S26,Stable,Claude Haiku 4.5,1,0,0,0,0.92,158
+S26,Stable,Gemini 3.8 Flash,1,0,0,0,0.99,49
+S27,Stable,GPT-6,1,0,0,0,1.56,145
+S27,Stable,Claude Haiku 4.5,1,0,0,0,1.1,122
+S27,Stable,Gemini 3.8 Flash,0,0,0,1,0.81,169
+S28,Stable,GPT-6,1,0,0,0,1.54,211
+S28,Stable,Claude Haiku 4.5,0,1,0,0,0.67,114
+S28,Stable,Gemini 3.8 Flash,1,0,0,0,0.91,103
+S29,Stable,GPT-6,1,0,0,0,2.3,149
+S29,Stable,Claude Haiku 4.5,1,0,0,0,0.64,118
+S29,Stable,Gemini 3.8 Flash,1,0,0,0,1.23,94
+S30,Stable,GPT-6,1,0,0,0,2.67,164
+S30,Stable,Claude Haiku 4.5,1,0,0,0,0.87,125
+S30,Stable,Gemini 3.8 Flash,1,0,0,0,1.26,107
+H01,Historical,GPT-6,1,0,0,0,3.09,170
+H01,Historical,Claude Haiku 4.5,1,0,0,0,0.67,158
+H01,Historical,Gemini 3.8 Flash,1,0,0,0,1.31,61
+H02,Historical,GPT-6,1,0,0,0,2.31,128
+H02,Historical,Claude Haiku 4.5,1,0,0,0,0.91,126
+H02,Historical,Gemini 3.8 Flash,1,0,0,0,1.13,102
+H03,Historical,GPT-6,1,0,0,0,3.01,88
+H03,Historical,Claude Haiku 4.5,0,0,0,1,0.89,133
+H03,Historical,Gemini 3.8 Flash,1,0,0,0,0.75,119
+H04,Historical,GPT-6,1,0,0,0,1.38,184
+H04,Historical,Claude Haiku 4.5,1,0,0,0,0.85,95
+H04,Historical,Gemini 3.8 Flash,0,1,0,0,1.61,126
+H05,Historical,GPT-6,1,0,0,0,2.3,208
+H05,Historical,Claude Haiku 4.5,0,1,0,0,1.03,116
+H05,Historical,Gemini 3.8 Flash,1,0,0,0,1.49,77
+H06,Historical,GPT-6,1,0,0,0,1.96,192
+H06,Historical,Claude Haiku 4.5,1,0,0,0,1.28,145
+H06,Historical,Gemini 3.8 Flash,1,0,0,0,1.14,77
+H07,Historical,GPT-6,1,0,0,0,3.04,177
+H07,Historical,Claude Haiku 4.5,1,0,0,0,0.69,125
+H07,Historical,Gemini 3.8 Flash,0,0,0,1,0.98,118
+H08,Historical,GPT-6,1,0,0,0,2.41,95
+H08,Historical,Claude Haiku 4.5,1,0,0,0,0.87,136
+H08,Historical,Gemini 3.8 Flash,1,0,0,0,0.75,93
+H09,Historical,GPT-6,1,0,0,0,1.36,201
+H09,Historical,Claude Haiku 4.5,1,0,0,0,1.04,109
+H09,Historical,Gemini 3.8 Flash,1,0,0,0,1.52,116
+H10,Historical,GPT-6,1,0,0,0,2.2,135
+H10,Historical,Claude Haiku 4.5,1,0,0,0,0.83,135
+H10,Historical,Gemini 3.8 Flash,1,0,0,0,0.89,106
+H11,Historical,GPT-6,1,0,0,0,1.69,136
+H11,Historical,Claude Haiku 4.5,0,1,0,0,1.04,125
+H11,Historical,Gemini 3.8 Flash,1,0,0,0,1.43,125
+H12,Historical,GPT-6,1,0,0,0,1.95,103
+H12,Historical,Claude Haiku 4.5,1,0,0,0,0.78,128
+H12,Historical,Gemini 3.8 Flash,0,1,0,0,0.78,74
+H13,Historical,GPT-6,1,0,0,0,2.3,174
+H13,Historical,Claude Haiku 4.5,1,0,0,0,0.63,60
+H13,Historical,Gemini 3.8 Flash,1,0,0,0,1.03,122
+H14,Historical,GPT-6,0,0,0,1,2.13,181
+H14,Historical,Claude Haiku 4.5,1,0,0,0,0.97,105
+H14,Historical,Gemini 3.8 Flash,1,0,0,0,1.22,132
+H15,Historical,GPT-6,1,0,0,0,2.35,152
+H15,Historical,Claude Haiku 4.5,1,0,0,0,1.03,69
+H15,Historical,Gemini 3.8 Flash,1,0,0,0,0.8,44
+H16,Historical,GPT-6,0,1,0,0,2.5,152
+H16,Historical,Claude Haiku 4.5,1,0,0,0,1.15,123
+H16,Historical,Gemini 3.8 Flash,1,0,0,0,1.13,147
+H17,Historical,GPT-6,1,0,0,0,1.65,143
+H17,Historical,Claude Haiku 4.5,0,1,0,0,0.71,114
+H17,Historical,Gemini 3.8 Flash,1,0,0,0,0.82,120
+H18,Historical,GPT-6,1,0,0,0,2.32,156
+H18,Historical,Claude Haiku 4.5,0,0,0,1,1.06,108
+H18,Historical,Gemini 3.8 Flash,1,0,0,0,0.89,91
+H19,Historical,GPT-6,1,0,0,0,1.96,169
+H19,Historical,Claude Haiku 4.5,1,0,0,0,1.15,115
+H19,Historical,Gemini 3.8 Flash,1,0,0,0,1.52,100
+H20,Historical,GPT-6,1,0,0,0,2.27,156
+H20,Historical,Claude Haiku 4.5,1,0,0,0,1.32,183
+H20,Historical,Gemini 3.8 Flash,0,1,0,0,1.21,140
+H21,Historical,GPT-6,1,0,0,0,2.04,168
+H21,Historical,Claude Haiku 4.5,1,0,0,0,0.61,66
+H21,Historical,Gemini 3.8 Flash,1,0,0,0,1.04,101
+H22,Historical,GPT-6,1,0,0,0,2.74,133
+H22,Historical,Claude Haiku 4.5,0,1,0,0,0.79,117
+H22,Historical,Gemini 3.8 Flash,1,0,0,0,1.07,139
+H23,Historical,GPT-6,1,0,0,0,2.06,232
+H23,Historical,Claude Haiku 4.5,1,0,0,0,1.18,127
+H23,Historical,Gemini 3.8 Flash,1,0,0,0,1.15,105
+H24,Historical,GPT-6,1,0,0,0,2.3,136
+H24,Historical,Claude Haiku 4.5,1,0,0,0,0.98,143
+H24,Historical,Gemini 3.8 Flash,1,0,0,0,1.27,101
+H25,Historical,GPT-6,1,0,0,0,1.9,186
+H25,Historical,Claude Haiku 4.5,1,0,0,0,0.8,69
+H25,Historical,Gemini 3.8 Flash,0,0,0,1,1.63,135
+H26,Historical,GPT-6,1,0,0,0,1.39,76
+H26,Historical,Claude Haiku 4.5,0,1,0,0,1.45,137
+H26,Historical,Gemini 3.8 Flash,1,0,0,0,0.79,101
+H27,Historical,GPT-6,0,1,0,0,2.01,182
+H27,Historical,Claude Haiku 4.5,1,0,0,0,0.74,150
+H27,Historical,Gemini 3.8 Flash,1,0,0,0,0.91,85
+H28,Historical,GPT-6,1,0,0,0,1.95,199
+H28,Historical,Claude Haiku 4.5,1,0,0,0,1.19,128
+H28,Historical,Gemini 3.8 Flash,1,0,0,0,1.72,99
+H29,Historical,GPT-6,1,0,0,0,1.83,172
+H29,Historical,Claude Haiku 4.5,1,0,0,0,0.99,109
+H29,Historical,Gemini 3.8 Flash,0,1,0,0,0.75,87
+H30,Historical,GPT-6,0,0,0,1,2.19,154
+H30,Historical,Claude Haiku 4.5,1,0,0,0,0.83,130
+H30,Historical,Gemini 3.8 Flash,1,0,0,0,1.39,128
+C01,Changing,GPT-6,1,0,0,0,2.37,168
+C01,Changing,Claude Haiku 4.5,0,0,1,0,0.84,116
+C01,Changing,Gemini 3.8 Flash,0,0,1,0,0.9,75
+C02,Changing,GPT-6,1,0,0,0,1.8,135
+C02,Changing,Claude Haiku 4.5,1,0,0,0,0.93,126
+C02,Changing,Gemini 3.8 Flash,1,0,0,0,1.46,130
+C03,Changing,GPT-6,1,0,0,0,1.73,175
+C03,Changing,Claude Haiku 4.5,0,0,1,0,0.63,123
+C03,Changing,Gemini 3.8 Flash,1,0,0,0,0.93,115
+C04,Changing,GPT-6,0,0,1,0,2.91,194
+C04,Changing,Claude Haiku 4.5,0,0,1,0,0.93,57
+C04,Changing,Gemini 3.8 Flash,0,0,1,0,1.08,79
+C05,Changing,GPT-6,1,0,0,0,3.4,127
+C05,Changing,Claude Haiku 4.5,0,0,1,0,0.91,170
+C05,Changing,Gemini 3.8 Flash,0,0,1,0,1.24,160
+C06,Changing,GPT-6,0,0,1,0,1.84,113
+C06,Changing,Claude Haiku 4.5,0,0,1,0,0.78,110
+C06,Changing,Gemini 3.8 Flash,0,0,1,0,1.23,60
+C07,Changing,GPT-6,1,0,0,0,1.77,195
+C07,Changing,Claude Haiku 4.5,1,0,0,0,0.75,140
+C07,Changing,Gemini 3.8 Flash,1,0,0,0,1.3,62
+C08,Changing,GPT-6,1,0,0,0,1.57,166
+C08,Changing,Claude Haiku 4.5,1,0,0,0,0.95,102
+C08,Changing,Gemini 3.8 Flash,1,0,0,0,1.39,116
+C09,Changing,GPT-6,0,1,0,0,3.0,147
+C09,Changing,Claude Haiku 4.5,0,1,0,0,0.75,138
+C09,Changing,Gemini 3.8 Flash,0,1,0,0,1.63,80
+C10,Changing,GPT-6,1,0,0,0,3.4,148
+C10,Changing,Claude Haiku 4.5,1,0,0,0,0.8,116
+C10,Changing,Gemini 3.8 Flash,1,0,0,0,0.88,126
+C11,Changing,GPT-6,1,0,0,0,1.39,179
+C11,Changing,Claude Haiku 4.5,1,0,0,0,0.89,115
+C11,Changing,Gemini 3.8 Flash,1,0,0,0,1.36,61
+C12,Changing,GPT-6,0,0,1,0,1.86,211
+C12,Changing,Claude Haiku 4.5,0,0,1,0,1.24,94
+C12,Changing,Gemini 3.8 Flash,0,0,1,0,1.26,85
+C13,Changing,GPT-6,1,0,0,0,2.82,150
+C13,Changing,Claude Haiku 4.5,1,0,0,0,0.86,99
+C13,Changing,Gemini 3.8 Flash,1,0,0,0,1.14,62
+C14,Changing,GPT-6,1,0,0,0,2.33,145
+C14,Changing,Claude Haiku 4.5,0,0,1,0,1.02,132
+C14,Changing,Gemini 3.8 Flash,1,0,0,0,0.84,133
+C15,Changing,GPT-6,1,0,0,0,3.4,171
+C15,Changing,Claude Haiku 4.5,0,0,1,0,0.83,147
+C15,Changing,Gemini 3.8 Flash,0,0,1,0,1.59,95
+C16,Changing,GPT-6,1,0,0,0,1.8,147
+C16,Changing,Claude Haiku 4.5,1,0,0,0,1.02,166
+C16,Changing,Gemini 3.8 Flash,1,0,0,0,1.04,118
+C17,Changing,GPT-6,1,0,0,0,2.63,96
+C17,Changing,Claude Haiku 4.5,0,0,1,0,0.72,60
+C17,Changing,Gemini 3.8 Flash,1,0,0,0,0.92,104
+C18,Changing,GPT-6,0,1,0,0,1.93,131
+C18,Changing,Claude Haiku 4.5,0,1,0,0,0.69,99
+C18,Changing,Gemini 3.8 Flash,0,0,1,0,1.37,109
+C19,Changing,GPT-6,0,0,1,0,1.57,159
+C19,Changing,Claude Haiku 4.5,0,1,0,0,0.66,81
+C19,Changing,Gemini 3.8 Flash,0,1,0,0,0.9,107
+C20,Changing,GPT-6,1,0,0,0,1.39,134
+C20,Changing,Claude Haiku 4.5,1,0,0,0,0.92,146
+C20,Changing,Gemini 3.8 Flash,1,0,0,0,0.88,122
+C21,Changing,GPT-6,1,0,0,0,2.37,154
+C21,Changing,Claude Haiku 4.5,1,0,0,0,0.89,146
+C21,Changing,Gemini 3.8 Flash,1,0,0,0,0.77,47
+C22,Changing,GPT-6,1,0,0,0,2.8,131
+C22,Changing,Claude Haiku 4.5,1,0,0,0,0.88,151
+C22,Changing,Gemini 3.8 Flash,0,0,0,1,1.32,99
+C23,Changing,GPT-6,0,0,1,0,2.06,151
+C23,Changing,Claude Haiku 4.5,0,0,1,0,1.35,174
+C23,Changing,Gemini 3.8 Flash,0,0,1,0,0.92,133
+C24,Changing,GPT-6,0,1,0,0,2.3,194
+C24,Changing,Claude Haiku 4.5,0,1,0,0,0.99,134
+C24,Changing,Gemini 3.8 Flash,0,1,0,0,1.01,74
+C25,Changing,GPT-6,0,0,0,1,2.93,167
+C25,Changing,Claude Haiku 4.5,0,0,0,1,0.86,130
+C25,Changing,Gemini 3.8 Flash,0,0,0,1,1.28,111
+C26,Changing,GPT-6,1,0,0,0,2.03,157
+C26,Changing,Claude Haiku 4.5,1,0,0,0,1.05,125
+C26,Changing,Gemini 3.8 Flash,1,0,0,0,1.17,104
+C27,Changing,GPT-6,1,0,0,0,1.98,139
+C27,Changing,Claude Haiku 4.5,1,0,0,0,0.96,135
+C27,Changing,Gemini 3.8 Flash,1,0,0,0,1.13,137
+C28,Changing,GPT-6,0,1,0,0,2.68,161
+C28,Changing,Claude Haiku 4.5,0,1,0,0,0.93,135
+C28,Changing,Gemini 3.8 Flash,0,1,0,0,1.12,75
+C29,Changing,GPT-6,0,0,0,1,1.95,143
+C29,Changing,Claude Haiku 4.5,0,0,0,1,0.77,107
+C29,Changing,Gemini 3.8 Flash,0,0,0,1,1.05,116
+C30,Changing,GPT-6,1,0,0,0,1.53,146
+C30,Changing,Claude Haiku 4.5,1,0,0,0,0.67,65
+C30,Changing,Gemini 3.8 Flash,1,0,0,0,1.17,110
